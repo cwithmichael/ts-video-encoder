@@ -10,6 +10,23 @@ To run this locally:
 
 `cat video.rgb24 | npm run start`
 
+Example run:
+
+```
+➜  ts-video-encodder git:(main) cat video.rgb24 | npm run start
+
+> ts-video-encodder@0.0.1 start
+> npx tsc && node dist/index.js
+
+Raw size: 53996544 bytes
+YUV420p size: 26998272 bytes (50% original size)
+Wrote encoded.yuv
+RLE size: 13592946 bytes (25.17% original size)
+Deflated size: 5743033 bytes (10.64% original size)
+Wrote decoded.yuv
+Wrote decoded.rgb24
+➜  ts-video-encodder git:(main)
+```
 
 To play the decoded file:
 
