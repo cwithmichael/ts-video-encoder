@@ -1,6 +1,6 @@
 This is a rewrite of the Codec from scratch repo originally done in Go.
 All credit goes to Github user kevmo314 for the logic.
-Please see the [original repo](https://github.com/kevmo314/codec-from-scratch/tree/main) for more detail information.
+Please see the [original repo](https://github.com/kevmo314/codec-from-scratch) for more detailed information.
 
 To run this locally:
 
