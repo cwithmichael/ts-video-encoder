@@ -33,4 +33,5 @@ To play the decoded file:
 `ffplay -f rawvideo -pixel_format rgb24 -video_size 384x216 -framerate 25 decoded.rgb24`
 
 You can do the same for the YUV files if you'd like:
+
 `ffplay -f rawvideo -pixel_format rgb24 -video_size 384x216 -framerate 25 decoded.yuv`
