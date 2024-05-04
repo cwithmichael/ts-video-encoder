@@ -2,3 +2,4 @@ dist/
 node_modules/
 *.yuv
 decoded.rgb24
+src/**/*.js
