@@ -1,9 +1,19 @@
-This is a rewrite of the Codec from scratch repo originally done in Go.
+## TypeScript-Video-Encoder
+
+This is a rewrite of the Codec From Scratch repo originally done in Go.
 All credit goes to Github user kevmo314 for the logic.
 Please see the [original repo](https://github.com/kevmo314/codec-from-scratch) for more detailed information.
 
 To run this locally:
 
-npm install
+`npm install`
 
-cat video.rgb24| npm run start
+`cat video.rgb24 | npm run start`
+
+
+To play the decoded file:
+
+`ffplay -f rawvideo -pixel_format rgb24 -video_size 384x216 -framerate 25 decoded.rgb24`
+
+You can do the same for the YUV files if you'd like:
+`ffplay -f rawvideo -pixel_format rgb24 -video_size 384x216 -framerate 25 decoded.yuv`
