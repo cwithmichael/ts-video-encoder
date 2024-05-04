@@ -1,6 +1,6 @@
 {
   "name": "ts-video-encodder",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.8",
     "typescript": "^5.4.5"

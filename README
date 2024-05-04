@@ -5,4 +5,5 @@ Please see the [original repo](https://github.com/kevmo314/codec-from-scratch/tr
 To run this locally:
 
 npm install
+
 cat video.rgb24| npm run start
